@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
-
 import Analytics from "./pages/Analytics";
 import Devices from "./pages/Devices";
 import Settings from "./pages/Settings";
