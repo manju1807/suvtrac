@@ -1,8 +1,10 @@
+import Map from "../components/Map";
+
 const Home = () => {
   return (
-    <div className="bg-black h-[100%] max-w-full text-white flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-5">
+    <div className="bg-black max-h-[fit-content] max-w-full text-white flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-5">
       <div className="bg-red-200 flex flex-col text-center justify-center items-center m-2 lg:grid lg:row-span-2 lg:col-span-3">
-        Maps
+        <Map />
       </div>
       <div className="bg-red-200 m-2 flex flex-col text-center justify-center items-center gap-2 lg:grid lg:row-span-2 lg:col-span-2">
         <div className="bg-green-400 w-full">consumed per day</div>
