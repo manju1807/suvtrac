@@ -5,9 +5,9 @@ import { BsList } from 'react-icons/bs';
 import { FaArrowDown } from 'react-icons/fa';
 const Alarms = () => {
   return (
-    <div className="bg-red-500 flex flex-col h-[100%] max-w-[100%] gap-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1 m-2">
-      <div className="bg-white lg:col-span-2 lg:row-span-1">
-      <div className="bg-white lg:col-span-2 lg:row-span-1 flex items-center justify-between font-bold text-xl text-black p-3">
+    <div className="bg-white flex flex-col h-[100%] max-w-[100%] gap-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1 m-2">
+      <div className="bg-white lg:col-span-2 lg:row-span-1 border h-screen  border-gray-400 ">
+      <div className=" flex items-center justify-between font-bold text-xl text-black p-3">
       Alarms
       <div className="flex items-center">
         <AiOutlineSearch className="mr-2" />
@@ -21,7 +21,7 @@ const Alarms = () => {
       </div>
 
       
-      <div className="bg-white lg:col-span-1 lg:row-span-1 flex  justify-between font-bold text-xl text-black p-3 ">Water Meters
+      <div className="bg-white lg:col-span-1 lg:row-span-1 flex  justify-between font-bold text-xl text-black p-3  h-screen border border-gray-400  ">Water Meters
       <div className="flex ">
         <AiOutlineSearch className="mr-2" />
         <BsList className="mr-2" /> 
