@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-500 to-indigo-600 font-semibold font-sans text-white p-3 flex justify-between items-center">
+    <nav className="bg-gradient-to-l from-[#712cf9] to-[#6610f2] font-sans text-white p-3 flex justify-between items-center">
       <div className="flex items-center">
-        <Link to="/" className="text-xl italic font-bold">
+        <Link to="/" className="text-2xl italic font-semibold">
           Suvetrac
         </Link>
       </div>
