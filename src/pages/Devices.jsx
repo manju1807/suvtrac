@@ -4,9 +4,10 @@ import { BsList} from 'react-icons/bs';
 import { BsFilter } from 'react-icons/bs';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { IoContractOutline } from 'react-icons/io5';
+import { FaArrowDown } from 'react-icons/fa';
 const Devices = () => {
   return (
-    <div className="bg-red-500 flex flex-col h-[100%] max-w-[100%] gap-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1 m-2">
+    <div className="bg-white flex flex-col h-[100%] max-w-[100%] gap-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1 m-2">
       <div className="bg-white lg:col-span-2 lg:row-span-1 border border-gray-200 ">
       <div className=" flex items-center justify-between font-bold text-xl text-black p-3">
       Water Meters
@@ -16,25 +17,68 @@ const Devices = () => {
         <IoContractOutline />        
         </div>
       </div>
-      <div className= "text-gray-700 text-sm mt-4 text-spacing ml-2 "> Label <span className="mx-9 lg:mx-15"></span> Consumed <span className="mx-2 lg:mx-6"></span> Address <span className="mx-2 lg:mx-6"></span> Status <span className="mx-2 lg:mx-6"></span> Leakage</div>
+      <div className="text-gray-700 text-sm mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-full lg:text-md">
+  <span className="lg:mx-4">Label</span>
+  <span className=" mx-12 lg:mx-2">Consumed</span>
+  <span className=" mx-2 lg:mx-2">Address</span>
+  <span className="mx-2 lg:mx-2">Status</span>
+  <span className="mx-2 lg:mx-2">Leakage</span>
+  <span className="mx-2 lg:mx-2"></span>
+</div>
       <div className="border-t border-gray-300 my-2 mt-4"></div>
-      <div className= "text-gray-800 text-xs mt-4 text-spacing ml-2 "> WM0000123<span className="mx-5 lg:mx-15"></span> 3722550.89 m <span className="mx-2 lg:mx-6"></span>  <span className="mx-8 lg:mx-12"></span> Active <span className="mx-1 lg:mx-6"></span><FaCircle className="inline-block  mx-6 mr-1 "style={{ color: 'green' }}  /> <FaMapMarkerAlt className="inline-block mx-12 lg:mx-14 mr-1"/></div>
+      <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-full lg:text-xs">
+  <span className="lg:mx-4">WM0000123</span>
+  <span className=" mx-4 lg:mx-10">3722550.89 m</span>
+  <span className=" mx-12 lg:mx-14"></span>
+  <span className=" mx-1 lg:mx-14">Active</span>
+  <span className="mx-1 lg:mx-2"><FaCircle className="inline-block  mx-6 mr-1 "style={{ color: 'green' }}  /> </span>
+  <span ><FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1"/> </span>
+</div>
       <div className="border-t border-gray-300 my-2 mt-4"></div>
-      <div className= "text-gray-700 text-xs mt-4 text-spacing ml-2 "> WM0000124<span className="mx-5 lg:mx-15"></span> 3722550.89 m <span className="mx-2 lg:mx-6"></span>  <span className="mx-8 lg:mx-12"></span> Active <span className="mx-1 lg:mx-6"></span><FaCircle className="inline-block  mx-6 mr-1 "style={{ color: 'green' }}  /> <FaMapMarkerAlt className="inline-block mx-12 lg:mx-14 mr-1"/> </div>
+      <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-full lg:text-xs">
+  <span className="lg:mx-4">WM0000123</span>
+  <span className=" mx-4 lg:mx-10">3722550.89 m</span>
+  <span className=" mx-12 lg:mx-14"></span>
+  <span className=" mx-1 lg:mx-14">Active</span>
+  <span className="mx-1 lg:mx-2"><FaCircle className="inline-block  mx-6 mr-1 "style={{ color: 'green' }}  /> </span>
+  <span ><FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1"/> </span>
+</div>
       <div className="border-t border-gray-300 my-2 mt-4"></div>
-      <div className= "text-gray-700 text-xs mt-4 text-spacing ml-2 "> WM0000125<span className="mx-5 lg:mx-15"></span> 3722550.89 m <span className="mx-2 lg:mx-6"></span>  <span className="mx-8 lg:mx-12"></span> Active <span className="mx-1 lg:mx-6"></span><FaCircle className="inline-block  mx-6 mr-1 "style={{ color: 'green' }}  /> <FaMapMarkerAlt className="inline-block mx-12 lg:mx-14 mr-1"/> </div>
-      <div className="border-t border-gray-300 my-2 mt-4 mb-20 lg:h-screen"></div>
-      </div>
-      <div className="bg-white lg:col-span-1 lg:row-span-1 flex  justify-between font-bold text-xl text-black p-3  h-screen border border-gray-200  ">Water Meters
-      <div className="flex ">
-        <IoContractOutline className="mr-2"/>   
+       <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-full lg:text-xs">
+  <span className="lg:mx-4">WM0000123</span>
+  <span className=" mx-4 lg:mx-10">3722550.89 m</span>
+  <span className=" mx-12 lg:mx-14"></span>
+  <span className=" mx-1 lg:mx-14">Active</span>
+  <span className="mx-1 lg:mx-2"><FaCircle className="inline-block  mx-6 mr-1 "style={{ color: 'green' }}  /> </span>
+  <span ><FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1"/> </span>
+</div>
+     <div className="border-t border-gray-300 my-2 mt-4 mb-20 lg:h-screen"></div>
+    </div>
+
+
+
+      
+    <div className="bg-white lg:col-span-1 lg:row-span-1  h-screen border border-gray-200">
+      <div className=' flex items-center justify-between font-bold text-xl text-black p-3'> 
+      Water Meters
+      <div className="flex items-center">
+        <IoContractOutline   className="mr-2" />
         <AiOutlineSearch className="mr-2" />
         <BsFilter className="mr-2" />
-        <BsList  /> 
+        <BsList className="mr-2" />
       </div>
-      
+       </div>
+
+       <div className="text-gray-700 text-sm mt-4 ml-2 flex">
+      <div className="w-full lg:w-1/2">Created Time <FaArrowDown className="inline-block ml-1" /></div>
+      <div className="w-full lg:w-1/2">Originator</div>
+      <div className="w-full lg:w-1/4">Type</div>
     </div>
-    </div>
+    
+    <div className="border-t border-gray-300 my-4"></div>
+    <div className="text-black text-center  mt-12 pb-12" >No Alarms found</div>
+    </div>    
+</div>
   );
 };
 
