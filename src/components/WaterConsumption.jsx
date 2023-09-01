@@ -116,5 +116,5 @@ const WaterConsumption = () => {
       {createBarChart(sampleData.ponds)}
     </div>
   );
-
+};
 export default WaterConsumption;
