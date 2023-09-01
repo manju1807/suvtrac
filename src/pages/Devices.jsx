@@ -17,16 +17,16 @@ const Devices = () => {
             <IoContractOutline />
           </div>
         </div>
-        <div className="text-gray-700 text-sm mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-[100vw] lg:text-md">
+        <div className="text-gray-700 text-sm mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-[65vw] lg:text-md">
           <span className="lg:mx-4">Label</span>
           <span className=" mx-12 lg:mx-2">Consumed</span>
-          <span className=" mx-2 lg:mx-2">Address</span>
-          <span className="mx-2 lg:mx-2">Status</span>
-          <span className="mx-2 lg:mx-2">Leakage</span>
-          <span className="mx-2 lg:mx-2"></span>
+          <span className=" mx-2 lg:mx-1">Address</span>
+          <span className="mx-2 lg:mx-1">Status</span>
+          <span className="mx-2 lg:mx-1">Leakage</span>
+          <span className="mx-2 lg:mx-1"></span>
         </div>
         <div className="border-t border-gray-300 my-2 mt-4"></div>
-        <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-[100vw] lg:text-xs">
+        <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-full lg:text-xs">
           <span className="lg:mx-4">WM0000123</span>
           <span className=" mx-4 lg:mx-10">3722550.89 m</span>
           <span className=" mx-12 lg:mx-14"></span>
@@ -35,26 +35,10 @@ const Devices = () => {
             <FaCircle
               className="inline-block  mx-6 mr-1 "
               style={{ color: "green" }}
-            />{" "}
+            />
           </span>
           <span>
-            <FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1" />{" "}
-          </span>
-        </div>
-        <div className="border-t border-gray-300 my-2 mt-4"></div>
-        <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-[100vw] lg:text-xs">
-          <span className="lg:mx-4">WM0000123</span>
-          <span className=" mx-4 lg:mx-10">3722550.89 m</span>
-          <span className=" mx-12 lg:mx-14"></span>
-          <span className=" mx-1 lg:mx-14">Active</span>
-          <span className="mx-1 lg:mx-2">
-            <FaCircle
-              className="inline-block  mx-6 mr-1 "
-              style={{ color: "green" }}
-            />{" "}
-          </span>
-          <span>
-            <FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1" />{" "}
+            <FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1" />
           </span>
         </div>
         <div className="border-t border-gray-300 my-2 mt-4"></div>
@@ -67,10 +51,26 @@ const Devices = () => {
             <FaCircle
               className="inline-block  mx-6 mr-1 "
               style={{ color: "green" }}
-            />{" "}
+            />
           </span>
           <span>
-            <FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1" />{" "}
+            <FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1" />
+          </span>
+        </div>
+        <div className="border-t border-gray-300 my-2 mt-4"></div>
+        <div className="text-gray-700 text-xs mt-4 text-spacing ml-2 lg:flex lg:justify-between lg:w-full lg:text-xs">
+          <span className="lg:mx-4">WM0000123</span>
+          <span className=" mx-4 lg:mx-10">3722550.89 m</span>
+          <span className=" mx-12 lg:mx-14"></span>
+          <span className=" mx-1 lg:mx-14">Active</span>
+          <span className="mx-1 lg:mx-2">
+            <FaCircle
+              className="inline-block  mx-6 mr-1 "
+              style={{ color: "green" }}
+            />
+          </span>
+          <span>
+            <FaMapMarkerAlt className="inline-block mx-12 lg:mx-12 mr-1" />
           </span>
         </div>
         <div className="border-t border-gray-300 my-2 mt-4 mb-20 lg:h-screen"></div>
