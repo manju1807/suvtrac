@@ -1,21 +1,30 @@
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsList } from "react-icons/bs";
-
+import Ponds from "../components/Ponds";
 const Analytics = () => {
   return (
     <div className="bg-white flex flex-col h-[100vh] max-w-[100vw] gap-2 md:grid lg:grid lg:grid-cols-3 lg:grid-rows-1 m-2">
-      <div className="bg-white lg:col-span-2 lg:row-span-1 flex h-28 ">
-        <div className="bg-white flex-grow mr-2 border border-gray-200">
-          <div className="mt-6 font-bold text-2xl text-center">518388.54 m</div>
-          <div className="mt-1 text-sm font-normal text-center">
-            Consumed per day
+      <div className="lg:w-full lg:col-span-2 h-[100vh] flex flex-col">
+        <div className="bg-white lg:row-span-1 flex h-28 ">
+          <div className="bg-white flex-grow mr-2 border border-gray-200">
+            <div className="mt-6 font-bold text-2xl text-center">
+              518388.54 m
+            </div>
+            <div className="mt-1 text-sm font-normal text-center">
+              Consumed per day
+            </div>
+          </div>
+          <div className="bg-white flex-grow mr-2 border border-gray-200">
+            <div className="mt-6 font-bold text-2xl text-center">
+              518388.54 m
+            </div>
+            <div className="mt-1 text-sm font-normal text-center">
+              Consumed per day
+            </div>
           </div>
         </div>
-        <div className="bg-white flex-grow mr-2 border border-gray-200">
-          <div className="mt-6 font-bold text-2xl text-center">518388.54 m</div>
-          <div className="mt-1 text-sm font-normal text-center">
-            Consumed per day
-          </div>
+        <div className="bg-white mt-6 mr-2">
+          <Ponds />
         </div>
       </div>
       <div className="bg-white lg:col-span-1 lg:row-span-1  h-screen border border-gray-200">
