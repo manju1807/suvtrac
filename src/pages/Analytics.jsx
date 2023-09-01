@@ -11,7 +11,7 @@ const Analytics = () => {
     </div>
     <div className="bg-white flex-grow mr-2 border border-gray-200">
       <div className="mt-6 font-bold text-2xl text-center">518388.54 m</div>
-      <div className="mt-1 text-sm font-normal text-center">Consumed per day</div>
+      <div className="mt-1 text-sm font-normal text-center">Consumed per current week</div>
     </div>
   </div>
       <div className="bg-white lg:col-span-1 lg:row-span-1  h-screen border border-gray-200">
