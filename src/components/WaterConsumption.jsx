@@ -21,6 +21,12 @@ const WaterConsumption = () => {
         capacity: 1800,
         totalConsumed: 600,
       },
+      {
+        id: 4,
+        name: "Pond 4",
+        capacity: 1500,
+        totalConsumed: 600,
+      },
     ],
   };
 

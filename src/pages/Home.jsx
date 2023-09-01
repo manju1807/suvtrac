@@ -13,9 +13,29 @@ const Home = () => {
           <Map />
         </div>
       </div>
-      <div className="bg-red-200 m-2 flex flex-col text-center justify-center items-center gap-2 lg:row-span-2 lg:col-span-2">
-        <div className="bg-green-400 w-1/2">consumed per day</div>
-        <div className="bg-violet-400 w-1/2">consumed per current week</div>
+      <div className=" m-2 flex flex-col text-center justify-center items-center gap-2 lg:row-span-2 lg:col-span-2">
+        <div className=" w-full">
+          {" "}
+          <div className="bg-white flex-grow mr-2 border text-black border-gray-200">
+            <div className="mt-6 font-bold text-2xl text-center">
+              518388.54 m<sup>3</sup>
+            </div>
+            <div className="mt-1 text-sm font-normal text-center">
+              Consumed per day
+            </div>
+          </div>
+        </div>
+        <div className=" w-full">
+          {" "}
+          <div className="bg-white flex-grow mr-2 border text-black border-gray-200">
+            <div className="mt-6 font-bold text-2xl text-center">
+              10493570.28 m<sup>3</sup>
+            </div>
+            <div className="mt-1 text-sm font-normal text-center">
+              Consumed per current week
+            </div>
+          </div>
+        </div>
         <div className="bg-white lg:col-span-2 lg:row-span-1 border h-screen  border-gray-200 w-full">
           <div className=" flex items-center justify-between font-bold text-xl text-black p-3">
             Alarms
