@@ -35,7 +35,7 @@ const WaterConsumption = () => {
       <h1 className="text-lg font-bold mb-3 text-black">
         Water Level Monitoring
       </h1>
-      <div className="w-full h-full p-10 overflow-hidden border border-gray-200">
+      <div className="w-full h-full p-10 overflow-hidden ">
         <svg className="w-full h-full">
           {/* Vertical grid lines */}
           {data.map((_, index) => {
@@ -112,7 +112,7 @@ const WaterConsumption = () => {
   );
 
   return (
-    <div className="w-full h-full flex items-center justify-center">
+    <div className="w-full h-full flex items-center justify-center border border-gray-200 p-3">
       {createBarChart(sampleData.ponds)}
     </div>
   );
