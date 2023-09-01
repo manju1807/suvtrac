@@ -8,7 +8,7 @@ const Analytics = () => {
         <div className="bg-white lg:row-span-1 flex h-28 ">
           <div className="bg-white flex-grow mr-2 border border-gray-200">
             <div className="mt-6 font-bold text-2xl text-center">
-              518388.54 m
+              518388.54 m<sup>3</sup>
             </div>
             <div className="mt-1 text-sm font-normal text-center">
               Consumed per day
@@ -16,7 +16,7 @@ const Analytics = () => {
           </div>
           <div className="bg-white flex-grow mr-2 border border-gray-200">
             <div className="mt-6 font-bold text-2xl text-center">
-              518388.54 m
+              518388.54 m<sup>3</sup>
             </div>
             <div className="mt-1 text-sm font-normal text-center">
               Consumed per day
