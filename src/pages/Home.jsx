@@ -13,26 +13,22 @@ const Home = () => {
           <Map />
         </div>
       </div>
-      <div className=" m-2 flex flex-col text-center justify-center items-center gap-2 lg:row-span-2 lg:col-span-2">
-        <div className=" w-full">
-          {" "}
-          <div className="bg-white flex-grow mr-2 border text-black border-gray-200">
-            <div className="mt-6 font-bold text-2xl text-center">
+      <div className=" mt-14 flex flex-col text-center justify-center items-center gap-2 lg:row-span-2 lg:col-span-2">
+      <div className="bg-white lg:row-span-1 flex h-32 w-full ">
+          <div className="bg-white flex-grow mr-2 border border-gray-200 p-5">
+            <div className="mt-6 font-bold text-2xl text-center text-black ">
               518388.54 m<sup>3</sup>
             </div>
-            <div className="mt-1 text-sm font-normal text-center">
+            <div className="mt-1 text-sm font-normal text-center text-black">
               Consumed per day
             </div>
           </div>
-        </div>
-        <div className=" w-full">
-          {" "}
-          <div className="bg-white flex-grow mr-2 border text-black border-gray-200">
-            <div className="mt-6 font-bold text-2xl text-center">
-              10493570.28 m<sup>3</sup>
+          <div className="bg-white flex-grow mr-2 border border-gray-200 p-5">
+            <div className="mt-6 font-bold text-2xl text-center text-black">
+              518388.54 m<sup>3</sup>
             </div>
-            <div className="mt-1 text-sm font-normal text-center">
-              Consumed per current week
+            <div className="mt-1 text-sm font-normal text-center text-black">
+              Consumed per day
             </div>
           </div>
         </div>
