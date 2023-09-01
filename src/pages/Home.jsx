@@ -8,7 +8,7 @@ import { FaArrowDown } from "react-icons/fa";
 const Home = () => {
   return (
     <div className=" text-white max-h-[94vh] flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-5">
-      <div className="bg-red-200 flex text-center justify-center items-center m-2 lg:row-span-2 lg:col-span-3">
+      <div className="flex text-center justify-center items-center m-2 lg:row-span-2 lg:col-span-3">
         <div className="map-container border border-gray-200 shadow-md">
           <Map />
         </div>
