@@ -30,7 +30,7 @@ const Alarms = () => {
       
       <div className="bg-white lg:col-span-1 lg:row-span-1  h-screen border border-gray-200">
       <div className=' flex items-center justify-between font-bold text-xl text-black p-3'> 
-      Active Alarma
+      Active Alarm
       <div className="flex items-center">
         <AiOutlineSearch className="mr-2" />
         <BsList className="mr-2" />
